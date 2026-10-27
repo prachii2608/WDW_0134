@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+  <h2 align="center">Student Registration Form</h2>
+    <form action="submit.html" method="post">
+        <p>
+            <label>Name:</label>
+            <input type="text" name="name"
+                   placeholder="Enter Name" required>
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email"
+                   placeholder="Enter Email" required>
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" name="password"
+                   placeholder="Enter Password" required>
+        </p>
+        <p>
+            <label>Gender:</label>
+            <input type="radio" name="gender"
+                   value="Male" required> Male
+            <input type="radio" name="gender"
+                   value="Female"> Female
+            <input type="radio" name="gender"
+                   value="Other"> Other
+        </p>
+        <p>
+            <label>Course:</label>
+            <select name="course" required>
+                <option value="">Select Course</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="MCA">MCA</option>
+            </select>
+        </p>
+        <p>
+            <label>Contact No:</label>
+            <input type="tel" name="contact"
+                   placeholder="Enter phone number" required>
+        </p>
+        <p>
+            <label>Address:</label><br>
+            <textarea name="address" rows="4" cols="40"
+                      placeholder="Enter your address"
+                      required></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </p>
+    </form>
+<hr>
+    <p align="center">
+        &copy; 2025 Student Registration Portal
+    </p>
+</body>
+</html>
